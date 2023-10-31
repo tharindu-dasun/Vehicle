@@ -1,8 +1,5 @@
 package lk.ijse.gdse.Vehicle.dto;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,7 +9,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 @Data
-public class VehicleDto {
+public class VehicleDTO {
     private Long vehicleId;
     private String brand;
     private String subName;
